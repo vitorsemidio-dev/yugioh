@@ -8,6 +8,7 @@ import { HeroImageComponent } from './hero-image/hero-image.component';
 import { ConhecaOGameComponent } from './conheca-o-game/conheca-o-game.component';
 import { CaracteristicasComponent } from './caracteristicas/caracteristicas.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     HeroImageComponent,
     ConhecaOGameComponent,
     CaracteristicasComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
