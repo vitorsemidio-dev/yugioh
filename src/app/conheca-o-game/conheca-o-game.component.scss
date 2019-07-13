@@ -8,10 +8,12 @@
 .conheca-o-game h3 {
   font-size: 2rem;
   margin-bottom: 35px;
+  text-align: center;
 }
 .conheca-o-game p {
   max-width: 800px;
   margin-bottom: 35px;
+  text-align: center;
 }
 .conheca-o-game hr {
   width: 200px;
@@ -45,5 +47,8 @@
 @media (max-width: 700px) {
   .conheca-o-game .grid li.large, .conheca-o-game .grid li.small {
     flex-basis: 100%;
+  }
+  .conheca-o-game p {
+    text-align: justify;
   }
 }
