@@ -1,7 +1,7 @@
 <footer>
   <ul>
     <li *ngFor="let icon of listIcon">
-      <a href="#" target="_blank"><i class="fa fa-{{icon}}" aria-hidden="true"></i></a>
+      <a [routerLink]="'/'" target="_blank"><i class="fa fa-{{icon}}" aria-hidden="true"></i></a>
     </li>
   </ul>
   <p>

@@ -1,12 +1,11 @@
 <header>
-  <a href="#">
+  <a [routerLink]="'/'">
     <img class="logo" src="assets/img/logo.png" alt="logo">
   </a>
 
   <nav>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Personagens</a></li>
-    <li><a href="#">Monstros</a></li>
-    <li><a href="#">Jogo</a></li>
+    <li *ngFor="let rota of rotas">
+      <a [routerLink]="'/'">{{ rota }}</a>
+    </li>
   </nav>
 </header>
