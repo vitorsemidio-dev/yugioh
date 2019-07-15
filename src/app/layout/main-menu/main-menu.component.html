@@ -1,1 +1,6 @@
 <p>main-menu works!</p>
+<ul *ngFor="let item of menuList" >
+  <a [routerLink]="item.rota">
+    <li>{{item.nome}}</li>
+  </a>
+</ul>

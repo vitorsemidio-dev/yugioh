@@ -4,8 +4,9 @@ import { HomeComponent } from './layout/home/home.component';
 import { YugiohComponent } from './site/yugioh/yugioh.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'yugioh', component: YugiohComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 @NgModule({
